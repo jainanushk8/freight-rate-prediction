@@ -114,6 +114,14 @@ A rigorous **temporal holdout split** was used to simulate real-world forecastin
 | LightGBM Regressor | $664.81 | $152.61 | 6.84% | 0.8108 |
 | **Weighted Ensemble (85% LGBM + 15% Ridge)** | **$660.90** | **$143.43** | **6.51%** | **0.8131** |
 
+### December 2025 Fixed Route Prediction Chart
+
+Route: Lexington, KY → Fort Wayne, IN | 360 miles | Dry Van | 32,000 lbs
+
+![Candidate December 2025 Predicted Load Rate](scorer_results/candidate_december.png)
+
+> Predicted rates average **$831.55/load** ($2.31/mile) across all 31 December days, exhibiting realistic midweek peaks and weekend dips — no artificial flatlining.
+
 ---
 
 ## 6. Output Verification Summary
