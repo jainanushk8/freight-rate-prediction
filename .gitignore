@@ -39,8 +39,8 @@ README.pdf
 optuna.log
 
 # ── Old duplicate root-level data files (now in data/) ───
-train-test.csv
-validation.csv
-validation-predictions-template.csv
-december-chart-inputs.csv
-requirements-ml.txt
+/train-test.csv
+/validation.csv
+/validation-predictions-template.csv
+/december-chart-inputs.csv
+/requirements-ml.txt

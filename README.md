@@ -47,8 +47,6 @@ Spotter's ML Engineer Assessment/
 
 Used Python 3.11.3 on Windows
 
-
-
 ```powershell
 
 # Install scorer and machine learning dependencies
