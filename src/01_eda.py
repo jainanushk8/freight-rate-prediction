@@ -1,11 +1,3 @@
-"""
-01_eda.py  —  Exploratory Data Analysis
-Freight Rate Prediction Challenge
-
-Run:
-    .venv\Scripts\python.exe src\01_eda.py
-"""
-
 from __future__ import annotations
 
 import os

@@ -1,5 +1,4 @@
 """
-04_predict.py
 Generates final submission predictions:
 1. validation_predictions.csv (12,000 loads)
 2. data/december_chart_inputs.csv (31 days, exact 7 columns)

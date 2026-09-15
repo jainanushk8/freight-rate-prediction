@@ -1,5 +1,4 @@
 """
-02_feature_engineering.py
 Feature extraction and transformation pipeline for freight rate prediction.
 Includes city coordinate memory and cyclical temporal encodings.
 """
@@ -92,7 +91,7 @@ class FeaturePipeline:
         is_train: bool = False,
         target_col: str = "posted_rate",
     ) -> Tuple[pd.DataFrame, Optional[pd.Series]]:
-        """Transform raw input DataFrame into engineered feature matrix."""
+        """Transform raw input DataFrame into feature matrix."""
         data = df.copy()
 
         # Date transformations
@@ -192,11 +191,11 @@ class FeaturePipeline:
         return x_out, y_out
 
     def save(self, filepath: str) -> None:
-        """Persist fitted pipeline configuration to disk."""
+        #Persist fitted pipeline configuration to disk.
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         joblib.dump(self, filepath)
 
     @classmethod
     def load(cls, filepath: str) -> "FeaturePipeline":
-        """Load fitted pipeline configuration from disk."""
+        #Load fitted pipeline configuration from disk.
         return joblib.load(filepath)
